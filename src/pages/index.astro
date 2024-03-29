@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Form from '../components/Form.astro';
+---
+
+<Layout title="Farrastopher - 2023">
+	<div class="box-border w-fit h-fit sm:h-[100%] sm:w-[100%]sm:items-center  lg:items-center sm:mx-auto relative">
+        <div class="w-fit h-fit mx-auto">
+            <img class="animate-fade animate-once animate-delay-100 animate-ease-in-out" src="assets/horse-header.png">
+        </div>
+        <div class="p-2 sm:p-0 animate-fade-up animate-once animate-duration-500 animate-delay-500 animate-ease-in-out w-fit h-fit absolute mx-auto top-[95%]">
+            <img src="assets/name.png">
+        </div>
+    </div>
+    <div class="flex flex-col p-2 mt-[20%] sm:mt-[10%] lg:h-[50%] lg:w-[50%] mx-auto">
+        <p class="sm:text-xl lg:text-2xl font-jost">Si por ventura se topa con este distinguido recinto virtual, le extendemos una exquisita y exuberante invitación a la extravagante festividad conocida como la Farrastopher. ¡Su presencia sería la guinda en el pastel de este sofisticado acontecimiento! 🎩🎉</p>
+        <Form/>
+            <iframe class="mx-auto mt-3 rounded-xl h-[20rem] w-[100%]" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3545.6591329555595!2d-55.95653912454734!3d-27.2925528764228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjfCsDE3JzMzLjIiUyA1NcKwNTcnMTQuMyJX!5e0!3m2!1sen!2spy!4v1701915822535!5m2!1sen!2spy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <img src="assets/prize.jpeg" alt="">
+    </div>
+</Layout>
